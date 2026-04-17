@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
 
 # Copy và cài requirements
 # Dùng --user để install vào /root/.local (dễ copy sang stage 2)
-COPY requirements.txt .
+COPY 02-docker/production/requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
 
@@ -45,7 +45,7 @@ WORKDIR /app
 COPY --from=builder /root/.local /home/appuser/.local
 
 # Copy source code
-COPY main.py .
+COPY 02-docker/production/main.py .
 
 # Copy utils from project root
 RUN mkdir -p /app/utils

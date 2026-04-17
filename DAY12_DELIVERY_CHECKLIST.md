@@ -1,10 +1,8 @@
 #  Delivery Checklist — Day 12 Lab Submission
 
-> **Student Name:** Chu Tuấn Nghĩa 
-> 
-> **Student ID:** 2A202600016
-> 
-> **Date:** 17/04/2026
+> **Student Name:** _________________________  
+> **Student ID:** _________________________  
+> **Date:** _________________________
 
 ---
 
@@ -22,11 +20,8 @@ Create a file `MISSION_ANSWERS.md` with your answers to all exercises:
 ## Part 1: Localhost vs Production
 
 ### Exercise 1.1: Anti-patterns found
-1. API Key bị hardcore - nên cho đọc từ environment.
-2. Không có config management, các tham số được để trực tiếp trong code
-3. Print thay vì sử dụng Log
-4. Cần thêm health check port để kiểm tra product chạy ổn chưa
-5. Port cố định, cần đọc từ env.
+1. [Your answer]
+2. [Your answer]
 ...
 
 ### Exercise 1.3: Comparison table
@@ -50,7 +45,7 @@ Create a file `MISSION_ANSWERS.md` with your answers to all exercises:
 ## Part 3: Cloud Deployment
 
 ### Exercise 3.1: Railway deployment
-- URL: https://exemplary-emotion-production-067d.up.railway.app
+- URL: https://your-app.railway.app
 - Screenshot: [Link to screenshot in repo]
 
 ## Part 4: API Security
